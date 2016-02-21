@@ -2,8 +2,6 @@ package com.applec.spigot;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Effect;
-import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -26,8 +24,6 @@ public class main extends JavaPlugin
 					PlayerInventory i = p.getInventory();
 					i.addItem(new ItemStack(Material.APPLE, 16));
 					Bukkit.broadcastMessage(ChatColor.AQUA + s.getName() + ChatColor.BOLD + "gavo 16 obuoliu");
-					Location vieta = p.getLocation();
-					p.getWorld().playEffect(vieta, Effect.FLAME, 4);
 			return true;
 			}
 		}
