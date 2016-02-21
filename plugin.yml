@@ -1,0 +1,8 @@
+name: AppleC
+main: com.applec.spigot.main
+version: 1.0
+author: Audriuskins
+commands:
+   obuolys:
+      description: Duoda 16 obuoliu
+      usage: /<command> [player]
