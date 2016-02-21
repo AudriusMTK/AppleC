@@ -14,16 +14,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class main extends JavaPlugin
 {
-	public void onEnable() 
-	{
-     
-    }
-   
-    public void onDisable() 
-    {
-       
-    }
-    
 	@Override
 	public boolean onCommand(CommandSender s, Command c,  String l, String[] args)
 	{
